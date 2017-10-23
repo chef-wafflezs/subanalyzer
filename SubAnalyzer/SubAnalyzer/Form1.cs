@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SubAnalyzer.Scraping;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace SubAnalyzer
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var result = ScrapingCore.Test();
         }
     }
 }

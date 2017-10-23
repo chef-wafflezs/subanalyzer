@@ -1,0 +1,13 @@
+﻿--CREATE TABLE [PostMain](
+--	[Id] [int] IDENTITY(1,1) NOT NULL,
+--	[Title] [nvarchar] (max) NULL,  
+--	[UserName] [nvarchar] (max) NULL,  
+--	[TitleLink] [nvarchar] (max) NULL,  
+--	[PostId] [nvarchar] (max) NULL,  
+--	[PostDate] [datetime] NULL,  
+--)
+--GO
+
+--SELECT * FROM [PostMain]
+
+DELETE FROM [PostMain]
